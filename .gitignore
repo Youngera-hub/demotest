@@ -1,0 +1,10 @@
+# 上游参考源码与中间产物（由 research/ 下的脚本按需重新生成）
+research/ref_*.txt
+research/questions.json
+research/answers.json
+research/ipip120.json
+research/__pycache__/
+dev/expected.json
+
+node_modules/
+.DS_Store

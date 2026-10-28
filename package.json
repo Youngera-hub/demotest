@@ -1,0 +1,12 @@
+{
+  "name": "traitlens",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "人格透镜 TraitLens — 静态人格 / 性格 / 职业兴趣测评站（无构建步骤）",
+  "scripts": {
+    "serve": "python -m http.server 8123",
+    "gen:big5": "python research/gen_big5.py",
+    "verify": "python research/crosscheck.py && node dev/verify.mjs"
+  }
+}
